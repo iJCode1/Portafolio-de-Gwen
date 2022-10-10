@@ -30,6 +30,10 @@ const GlobalStyle = createGlobalStyle`
     font: var(--headline2);
     margin: 0;
   }
+  
+  html{
+    scroll-behavior: smooth;
+  }
 `;
 
 export default GlobalStyle;
