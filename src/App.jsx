@@ -1,7 +1,10 @@
+import Layout from "./components/Layout"
+
 function App() {
 
   return (
-    <p>APP</p>
+    <Layout>
+    </Layout>
   )
 }
 
