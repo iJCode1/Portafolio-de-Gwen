@@ -20,10 +20,10 @@ const ButtonStyled = styled.button`
   }
 `;
 
-function Button({ text, link, className }) {
+function Button({ text, link, className, download }) {
   const component = link ? 'a' : 'button'
   return (
-    <ButtonStyled className={className} as={component} href={link} target="_blank" rel="noreferrer">
+    <ButtonStyled className={className} as={component} href={link} target="_blank" rel="noreferrer" download={download}>
       {text}
     </ButtonStyled>
   )

@@ -37,7 +37,7 @@ const ContactStyled = styled.div`
 
 function Contact() {
   return (
-    <ContactStyled>
+    <ContactStyled id='contacto'>
       <h2 className='note'>¿Quieres trabajar conmigo o simplemente tomar un café? - ¡Hazme ping!</h2>
       <a className='email' href="mailto:name@email.com">gwenstacy@gmail.com</a>
     </ContactStyled>

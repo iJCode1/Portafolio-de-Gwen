@@ -30,19 +30,20 @@ const MediaStyled = styled.div`
     gap: 1rem;
   }
 
-  .email{
+  .email, .phone{
     color: var(--white);
     font: var(--body2-regular);
     text-decoration: none;
+    transition: transform .2s;
       &:hover{
       text-decoration: underline;
       }
       &:active{
-        transform: scale(.99);
+        transform: scale(.90);
       }
   }
 
-  .phone, .details{
+  .details{
     color: var(--white);
     font: var(--body2-regular);
     margin: 0;
@@ -52,7 +53,7 @@ const MediaStyled = styled.div`
     text-decoration: underline;
     }
     &:active{
-      transform: scale(.99);
+      transform: scale(.90);
     }
   }
 `
@@ -63,13 +64,13 @@ function Media() {
       <div className='group'>
         <p className='type'>Redes sociales</p>
         <SocialLink text="GitHub" link="https://github.com/iJCode1" />
-        <SocialLink text="Youtube" />
-        <SocialLink text="LinkedIn" />
+        <SocialLink text="Twitter" link="https://twitter.com/iJCode1" />
+        <SocialLink text="LinkedIn" link="https://www.linkedin.com/in/joel-dome/" />
       </div>
       <div className='group'>
         <p className='type'>Contacto</p>
         <a className='email' href="mailto:name@email.com">gwenstacy@gmail.com</a>
-        <p className='phone'>(405) 555-0128</p>
+        <a className='phone' href="tel:(405) 555-0128">(405) 555-0128</a>
         <p className='details'>Detalles de facturación</p>
       </div>
     </MediaStyled>

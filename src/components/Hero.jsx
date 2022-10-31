@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { ButtonSmall } from './Button';
-
+import cv from '../assets/files/cv.pdf';
 
 const HeroStyled = styled.section`
   display: flex;
@@ -29,10 +29,10 @@ const HeroStyled = styled.section`
 
 function Hero() {
   return (
-    <HeroStyled>
+    <HeroStyled id='home'>
       <h3 className='title'>Diseño y Código de punta a punta de experiencias digitales innovadoras, sostenibles y flexibles</h3>
       <p className='description'>Soy una diseñadora y programadora de productos e interacción independiente centrada en las necesidades humanas, las posibilidades técnicas y el éxito mpresarial.</p>
-      <ButtonSmall text="Descargar currículum" />
+      <ButtonSmall link={cv} text="Descargar currículum" download="download"/>
     </HeroStyled>
   );
 }

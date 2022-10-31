@@ -10,12 +10,13 @@ const SocialLinkStyled = styled.a`
   display: inline-block;
   inline-size: fit-content;
   padding: 0;
-  
+  text-decoration: none;
+
   &:hover{
     text-decoration: underline;
   }
   &:active{
-    transform: scale(.99);
+    transform: scale(.90);
   }
 `
 

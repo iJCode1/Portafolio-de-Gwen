@@ -35,7 +35,7 @@ const CompaniesStyled = styled.div`
 
 function Companies() {
   return (
-    <CompaniesStyled>
+    <CompaniesStyled id="testimonios">
       <p className='text'>He tenido el privilegio de trabajar con múltiples empresas como.</p>
       <div className='companies'>
         <Icon

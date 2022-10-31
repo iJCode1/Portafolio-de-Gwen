@@ -33,7 +33,7 @@ const MainStyled = styled.div`
 
 function Main() {
   return (
-    <MainStyled>
+    <MainStyled id='proyectos'>
       <p className='paragraph'>El trabajo que hago y los proyectos a los que he ayudado.</p>
       <div className='projects'>
         <Project

@@ -4,7 +4,7 @@ import Hero from './components/Hero';
 import Main from "./components/Main";
 import Companies from "./components/Companies";
 import Contact from "./components/Contact";
-import Media from "./Media";
+import Media from "./components/Media";
 
 function App() {
 

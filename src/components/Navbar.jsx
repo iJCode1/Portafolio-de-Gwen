@@ -12,6 +12,18 @@ const NavbarStyled = styled.nav`
     font-size: 1.5rem;
     line-height: 1.5rem;
     margin: 0;
+    &>a{
+      transition: transform .2s;
+      color: var(--white);
+      text-decoration: none;
+      display: inline-block;
+      &:hover{
+        text-decoration: underline;
+      }
+      &:active{
+        transform: scale(.9);
+      }
+    }
   }
 
   .icon{
@@ -54,9 +66,11 @@ const NavbarStyled = styled.nav`
 function Navbar() {
   return (
     <NavbarStyled>
-      <h2 className='title'>Gwen Stacy</h2>
+      <h2 className='title'>
+        <a href="/">Gwen Stacy</a>
+      </h2>
       <span className="icon">
-        <Icon icon="menu" size="24" color="var(--button-background)"/>
+        <Icon icon="menu" size="24" color="var(--button-background)" />
       </span>
 
       <div className="options">
