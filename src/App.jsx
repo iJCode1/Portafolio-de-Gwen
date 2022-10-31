@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar"
 import Hero from './components/Hero';
 import Main from "./components/Main";
 import Companies from "./components/Companies";
+import Contact from "./components/Contact";
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Main />
       <Companies />
+      <Contact />
     </Layout>
   )
 }
