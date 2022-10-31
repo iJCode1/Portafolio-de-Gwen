@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Main from "./components/Main";
 import Companies from "./components/Companies";
 import Contact from "./components/Contact";
+import Media from "./Media";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Main />
       <Companies />
       <Contact />
+      <Media />
     </Layout>
   )
 }
