@@ -31,7 +31,8 @@ function Button({ text, link, className, download }) {
 
 export const ButtonSmall = styled(Button)`
   width: 100%;
-  max-width: 16.25rem;
+  max-width: 18rem;
+  box-sizing: border-box;
 `;
 
 export const ButtonTransparent = styled(Button)`
