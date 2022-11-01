@@ -22,6 +22,10 @@ const GlobalStyle = createGlobalStyle`
     --body1-bold: 700 1.125rem/1.6875rem Arvo; 
     --body2-regular: 400 0.875rem/1.6875rem Arvo; 
     --body2-bold: 700 0.875rem/1.6875rem Arvo; 
+    @media screen and (prefers-color-scheme: light){
+      --background-1: #fffffe;
+      --white: #242629;
+    }
   }
 
   body{

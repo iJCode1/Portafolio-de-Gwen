@@ -18,6 +18,9 @@ const ButtonStyled = styled.button`
   &:active{
     transform: scale(.9);
   }
+  @media screen and (prefers-color-scheme: light){
+    --white: #fffffe;
+  }
 `;
 
 function Button({ text, link, className, download }) {

@@ -40,6 +40,10 @@ const ProjectStyled = styled.div`
       flex-direction: row;
     }
   }
+
+  @media screen and (prefers-color-scheme: light){
+    --grey: #72757e;
+  }
 `
 
 function Project({ name, text, image, repo, code }) {
