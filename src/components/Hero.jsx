@@ -31,7 +31,7 @@ function Hero() {
   return (
     <HeroStyled id='home'>
       <h3 className='title'>Diseño y Código de punta a punta de experiencias digitales innovadoras, sostenibles y flexibles</h3>
-      <p className='description'>Soy una diseñadora y programadora de productos e interacción independiente centrada en las necesidades humanas, las posibilidades técnicas y el éxito mpresarial.</p>
+      <p className='description'>Soy una diseñadora y programadora de productos e interacción independiente centrada en las necesidades humanas, las posibilidades técnicas y el éxito empresarial.</p>
       <ButtonSmall link={cv} text="Descargar currículum" download="download"/>
     </HeroStyled>
   );
