@@ -6,11 +6,11 @@ const GlobalStyle = createGlobalStyle`
     --primary: #5928e5; 
     --white: #fffffe; 
     --grey: #94a1b2; 
-    --secondary: #72757e; 
+    --secondary: #81838b; 
     --tertiary: #2cb67d; 
     --background-1: #16161a; 
     --background-2: #242629; 
-    --button-background: #7f5af0; 
+    --button-background: #8c67ff; 
     --headline1: 700 4.5rem/5rem Arvo; 
     --headline2: 700 4rem/4.75rem Arvo; 
     --headline3: 700 2rem/2rem Arvo; 

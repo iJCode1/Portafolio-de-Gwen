@@ -51,7 +51,7 @@ function Project({ name, text, image, repo, code }) {
     <ProjectStyled>
       <div className="content">
         <img className='image' src={image} alt="Proyecto" width="280" height="280" />
-        <h5 className="name">{name}</h5>
+        <h2 className="name">{name}</h2>
         <p className='detail'>{text}</p>
         <div className='actions'>
           <Button text="Ver detalle del proyecto" link={repo} />
